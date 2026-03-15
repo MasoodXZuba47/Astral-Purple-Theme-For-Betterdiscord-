@@ -1,0 +1,241 @@
+/**
+ * @name Astral Purple
+ * @author Zuba
+ * @version 1.0.0
+ * @description Premium purple glass BetterDiscord theme with custom background.
+ * @authorId 000000000000000000
+ * @website https://github.com/zuba
+ * @source https://github.com/zuba/astral-purple
+ */
+
+:root{
+--ap-p1:#8A5CFF;
+--ap-p2:#6E3BFF;
+--ap-p3:#B89CFF;
+--ap-p4:#3d1fa8;
+
+--ap-glow-xs:0 0 8px rgba(138,92,255,.20);
+--ap-glow-sm:0 0 14px rgba(138,92,255,.30);
+--ap-glow-md:0 0 24px rgba(138,92,255,.42);
+--ap-glow-lg:0 0 44px rgba(138,92,255,.52);
+
+--ap-ease:cubic-bezier(.4,0,.2,1);
+}
+/* BACKGROUND */
+
+body{
+background-image: url("data:image/jpeg;base64,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");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* MAKE DISCORD TRANSPARENT */
+
+.appMount-2yBXZl,
+.bg-1QIAus,
+[class*="app"],
+[class*="layers"],
+[class*="container"],
+[class*="contentRegion"],
+[class*="chat"],
+[class*="membersWrap"],
+[class*="sidebar"]{
+background: transparent !important;
+}
+
+/* background overlay */
+
+#app-mount::before{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 20%,rgba(100,60,255,.25),transparent 50%),
+radial-gradient(circle at 80% 80%,rgba(120,70,255,.18),transparent 55%),
+rgba(6,3,14,.55);
+pointer-events:none;
+z-index:0;
+}
+
+/* GLASS SIDEBARS */
+
+[class*="sidebar"],
+[class*="membersWrap"],
+[class*="panels"]{
+background:rgba(10,7,20,.65)!important;
+backdrop-filter:blur(22px) saturate(150%)!important;
+border-color:rgba(138,92,255,.1)!important;
+}
+
+/* GUILD LIST */
+
+nav[class*="guilds"]{
+background:rgba(8,5,17,.78)!important;
+backdrop-filter:blur(18px);
+}
+
+[class*="wrapper"] [class*="childWrapper"]{
+border-radius:14px!important;
+transition:.28s;
+}
+
+[class*="wrapper"]:hover [class*="childWrapper"]{
+background:rgba(138,92,255,.22)!important;
+box-shadow:0 0 18px rgba(138,92,255,.55);
+}
+
+/* TOP BAR FIX */
+
+[class*="chat"] [class*="toolbar"],
+[class*="chat"] > [class*="header"]{
+background:rgba(10,7,20,.70)!important;
+backdrop-filter:blur(20px)!important;
+border-bottom:1px solid rgba(138,92,255,.10)!important;
+}
+
+/* CHAT AREA */
+
+[class*="chat"],
+[class*="messagesWrapper"],
+[class*="chatContent"]{
+background:transparent!important;
+}
+
+/* MESSAGE HOVER */
+
+[class*="message"]:hover{
+background:rgba(138,92,255,.05)!important;
+border-radius:6px;
+}
+
+/* MEMBER LIST */
+
+[class*="membersWrap"]{
+background:linear-gradient(
+180deg,
+rgba(8,5,18,.75),
+rgba(10,6,22,.75)
+)!important;
+}
+
+[class*="member"]{
+background:transparent!important;
+border-radius:8px!important;
+transition:.2s;
+}
+
+[class*="member"]:hover{
+background:rgba(138,92,255,.045)!important;
+box-shadow:
+0 1px 8px rgba(138,92,255,.08),
+inset 0 0 0 1px rgba(138,92,255,.06)!important;
+transform:translateY(-1px);
+}
+
+[class*="member"] [class*="name"]{
+text-shadow:0 0 6px rgba(0,0,0,.6);
+}
+
+/* INPUT BOX */
+
+[class*="channelTextArea"]{
+background:rgba(7,4,14,.82)!important;
+border:1px solid rgba(138,92,255,.16)!important;
+border-radius:14px!important;
+backdrop-filter:blur(18px)!important;
+margin:0 16px 16px;
+}
+
+[class*="channelTextArea"]:focus-within{
+border-color:rgba(138,92,255,.36)!important;
+box-shadow:
+0 0 0 3px rgba(138,92,255,.12),
+0 0 22px rgba(138,92,255,.16);
+}
+
+/* REMOVE ATTACH BUTTON CIRCLE */
+
+[class*="attachButton"]::after,
+[class*="attachButton"]::before{
+display:none!important;
+}
+
+[class*="attachWrapper"]{
+background:transparent!important;
+border:none!important;
+}
+
+/* SEARCH BAR FIX */
+
+[class*="searchBar"],
+[class*="search-"] [class*="input"]{
+background:rgba(40,28,70,.45)!important;
+border:1px solid rgba(138,92,255,.22)!important;
+border-radius:20px!important;
+color:#dcd7ff!important;
+backdrop-filter:blur(8px)!important;
+}
+
+[class*="searchBar"]:focus-within,
+[class*="search-"] [class*="input"]:focus{
+background:rgba(60,40,100,.55)!important;
+border-color:rgba(138,92,255,.50)!important;
+box-shadow:0 0 16px rgba(138,92,255,.20)!important;
+}
+
+/* BUTTONS */
+
+button[class*="colorBrand"]{
+background:linear-gradient(135deg,#6330e8,#8A5CFF)!important;
+border:none!important;
+border-radius:8px!important;
+box-shadow:0 4px 18px rgba(138,92,255,.44)!important;
+}
+
+button[class*="colorBrand"]:hover{
+background:linear-gradient(135deg,#8A5CFF,#b89cff)!important;
+box-shadow:0 6px 28px rgba(138,92,255,.64)!important;
+transform:translateY(-1px);
+}
+
+/* CONTEXT MENUS */
+
+[class*="menu"]{
+background:rgba(12,8,24,.96)!important;
+border:1px solid rgba(138,92,255,.18)!important;
+border-radius:14px!important;
+backdrop-filter:blur(26px);
+}
+
+/* TOOLTIP */
+
+[class*="tooltip"]{
+background:rgba(12,8,24,.98)!important;
+border:1px solid rgba(138,92,255,.34)!important;
+border-radius:8px!important;
+}
+
+/* REMOVE TYPING INDICATOR */
+
+[class*="typing"],
+[class*="typingDots"],
+[class*="ellipsis"]{
+display:none!important;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+width:4px;
+}
+
+::-webkit-scrollbar-thumb{
+background:rgba(138,92,255,.36);
+border-radius:99px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:rgba(138,92,255,.65);
+}
