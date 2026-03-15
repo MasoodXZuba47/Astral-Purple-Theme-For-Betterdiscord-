@@ -1,0 +1,23 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# BetterDiscord / Vencord / Local Testing (Optional)
+# If you run any local preprocessors or have node dependencies
+node_modules/
+dist/
+*.log
+
+# Personal/Test files
+test.css
+temp/
